@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&family=Rubik:wght@500&display=swap');
+
+#app{
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+
+#btnA{
+    background-color: #232325;
+    color: aliceblue;
+    border: solid #232325 3px;
+    border-radius: 20px;
+    margin: 20px;
+    font-size: 20px;
+    transition: background-color 0.15s,border-color 0.15s;
+}
+
+#btnA:active{
+    background-color: #ffffff;
+    border-color: #ffffff;
+}
+
+#img{
+    border: solid #232325 6px;
+    border-radius: 10px;
+}
+
+#text{
+    color: #232325;
+}
